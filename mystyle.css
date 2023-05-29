@@ -1,0 +1,25 @@
+/*網頁中使用了 5 種不同的 CSS 語法所設計的特效，相關語法敘述皆須置於名稱為 "mystyle.css" 的檔案中 (10%)*/
+
+#div1{
+	color:white;
+	background-color:black;
+}
+
+/*Pseudo class selector*/
+a:{
+
+	color:purple;
+}
+a:hover{
+	color:green;
+}
+
+a:active{
+	color:red;
+}
+
+
+::selection{
+	color:#004D99;
+	background-color:#FFFF00;
+}
